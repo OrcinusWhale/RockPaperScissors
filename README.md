@@ -1,2 +1,2 @@
-# RockPaperScissors
-Rock Paper Scissors website
+# Rock Paper Scissors
+A Rock Paper Scissors website
