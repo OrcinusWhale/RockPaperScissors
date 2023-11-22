@@ -39,4 +39,5 @@ function game() {
         playerSelection = prompt("Please enter your selection (Rock, Paper, Scissors): ")
         console.log(playRound(playerSelection, getComputerChoice()))
     }
+    console.log("Game Over")
 }
