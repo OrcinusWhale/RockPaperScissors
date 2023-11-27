@@ -1,0 +1,28 @@
+body {
+    background-color: #26006E;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#round {
+    text-align: center;
+}
+
+#score {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    flex: 1;
+}
+
+.selection {
+    border: solid cyan 4px;
+}

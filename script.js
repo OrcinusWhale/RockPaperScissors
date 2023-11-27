@@ -33,11 +33,11 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-function game() {
-    let playerSelection;
-    for (let i=0; i<5; ++i) {
-        playerSelection = prompt("Please enter your selection (Rock, Paper, Scissors): ")
-        console.log(playRound(playerSelection, getComputerChoice()))
-    }
-    console.log("Game Over")
-}
+let playerScore = 0;
+let cpuScore = 0;
+const selectionBtns = document.querySelectorAll(".selection");
+selectionBtns.forEach(button => 
+    button.addEventListener("click", () => 
+        console.log(playRound(button.textContent, getComputerChoice()))
+    )
+);
